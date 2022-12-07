@@ -141,3 +141,34 @@ where sexo = 'F' and nome_curso ='Medicina'
 
 <br>
 
+<h1 >9ª Questão </h1>
+
+Faça um comando SQL que retorne os nomes dos cursos ordenados por ordem
+alfabética.
+
+```
+select nome_curso from tb_curso order by nome_curso
+
+```
+
+<h1>Resultado esperado</h1>
+
+![Captura de Tela (28)](https://user-images.githubusercontent.com/105823539/206073424-a617aed5-3ec2-474b-92d8-3cb84d07b31d.png)
+
+<br>
+
+<h1 >10ª Questão </h1>
+Crie o enunciado de uma consulta SQL que utilize “junção” (com resposta).
+<br>
+<br>
+<i>-Retorne respectivamente o nome dos alunos, o sexo e o curso em que estão matriculados.</i>
+
+
+```
+select tb_aluno.nome_aluno,sexo, tb_curso.nome_curso
+from tb_aluno
+inner join tb_curso
+on tb_aluno.cod_aluno = tb_curso.cod_curso
+```
+
+<h1>Resultado esperado</h1>
