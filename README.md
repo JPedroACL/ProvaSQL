@@ -141,15 +141,16 @@ Faça um comando SQL que retorne o nome de todas as mulheres matriculadas
 no curso de Medicina.
 
 ``` 
-select tb_aluno.nome_aluno, tb_curso.nome_curso
+select nome_aluno, tb_curso.nome_curso as nome_curso
 from tb_aluno
 inner join tb_curso
-on tb_aluno.cod_aluno = tb_curso.cod_curso
-where sexo = 'F' and nome_curso ='Medicina'
+on  tb_curso.nome_curso = 'Medicina'
+where sexo = 'F' 
 ```
 <h1>Resultado esperado</h1>
 
-![f11](https://user-images.githubusercontent.com/105823539/206072549-00c9fb9a-e970-4507-8185-894225742439.png)
+![f11](https://user-images.githubusercontent.com/105823539/206321575-e66cfd44-2f3e-42dc-90a5-69c09eab1739.png)
+
 
 <br>
 
