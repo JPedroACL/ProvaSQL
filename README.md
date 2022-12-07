@@ -96,7 +96,7 @@ Desenvolva um comando SQL que retorne o nome de todos os alunos maiores que
 18 anos.
 
 ```
-select nome_aluno from tb_aluno where 2022 - ano_nasc <= 18
+select nome_aluno from tb_aluno where 2022 - ano_nasc >= 18
 
 ```
 
