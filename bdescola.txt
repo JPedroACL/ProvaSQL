@@ -11,9 +11,16 @@ create table TB_Curso (
 );
 
 create table TB_Matriculas(
-	cod_curso int references TB_curso(cod_curso),
-	cod_aluno int references Tb_aluno(cod_aluno)
+	cod_curso int,
+	cod_aluno int
 	 );
+
+alter table TB_Matriculas
+	ADD CONSTRAINT fk_cod_curso FOREIGN KEY (cod_curso) REFERENCES tb_curso(cod_curso)
+
+alter table TB_Matriculas
+	ADD CONSTRAINT fk_cod_aluno FOREIGN KEY (cod_aluno) REFERENCES tb_aluno(cod_aluno)
+
 
 insert into tb_aluno (cod_aluno,nome_aluno,ano_nasc,e_mail,sexo)
 values(1,'Josiel Jardim',1974,'josiel@provaSQL.com.br','M');
