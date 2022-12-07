@@ -24,11 +24,19 @@ Faça um comando SQL para matricular o aluno “Pedro César” no curso de
 Informática. Os dados devem ser inseridos na tabela TB_MATRÍCULA.
 
 
-```  ```
+```
+insert into tb_aluno (cod_aluno,nome_aluno, sexo)
+values (4,'Pedro César', 'M');
+
+insert into tb_matriculas (cod_curso,cod_aluno)
+values (4,4) 
+
+```
 
 
 <h1>Resultado esperado</h1>
 
+![f4](https://user-images.githubusercontent.com/105823539/206182695-4b273ff5-a023-4425-9dd8-ec21997266d5.png)
 
 
 <h1> 2ª Questão </h1>
@@ -48,13 +56,16 @@ on tb_curso.cod_curso =tb_matriculas.cod_curso
 
 <h1> Resultado esperado</h1>
 
+![f5](https://user-images.githubusercontent.com/105823539/206185332-b1dfd259-a1a1-4986-8c45-2cb6b23c76a6.png)
+
 <br>
 
 <h1> 3ª Questão </h1>
 
 Crie um comando SQL que retorne o e-mail de todos os alunos maiores de idade.
 
-```select e_mail 
+```
+select e_mail 
 from tb_aluno 
 where 2022 - ano_nasc >= 18
   ```
@@ -77,6 +88,7 @@ select count (cod_aluno) from tb_aluno
 
 <h1>Resultado esperado</h1>
 
+![f7](https://user-images.githubusercontent.com/105823539/206186052-31f25064-6e8d-4216-a6de-aff30239765f.png)
 <br>
 
 <h1> 5ª Questão</h1>
@@ -172,3 +184,5 @@ on tb_aluno.cod_aluno = tb_curso.cod_curso
 ```
 
 <h1>Resultado esperado</h1>
+
+![f13](https://user-images.githubusercontent.com/105823539/206186449-ea435a56-3b99-4a02-831c-aa94d9c16b00.png)
