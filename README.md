@@ -95,10 +95,19 @@ select count (cod_aluno) from tb_aluno
 
 Escreva um comando SQL para listar o total de alunos matriculador em cada curso.
 
-``` ```
+```
+alter table tb_matriculas
+add cod_matricula serial primary key 
 
+```
+```
+select count(cod_matricula) as total_alunos from tb_matriculas group by cod_curso
+
+```
 
 <h1>Resultado esperado</h1>
+
+![f8](https://user-images.githubusercontent.com/105823539/206540692-b09a5acd-bb0c-4941-98c0-c818d61ee78b.png)
 
 <br>
 
