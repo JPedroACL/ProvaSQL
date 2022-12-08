@@ -187,3 +187,40 @@ on tb_aluno.cod_aluno = tb_curso.cod_curso
 <h1>Resultado esperado</h1>
 
 ![f13](https://user-images.githubusercontent.com/105823539/206186449-ea435a56-3b99-4a02-831c-aa94d9c16b00.png)
+
+---
+
+<h1>Questões teóricas</h1>
+
+
+<h5>1.
+  O Structured Query Language,ou Linguagem de Consulta Estruturada, é uma linguagem para acesso,criação e manipulação de dados, sendo utilizada principalmente para trabalhar com banco de dados relacionais.  </h5>
+  
+<h5> 2. 
+O SQL foi desenvolvido originalmente nos laboratórios da IBM na década de 70 sendo lançado pela Oracle em 1979. Na década de 80,a empresa American National Standards Institute (ANSI) iniciou seus trabalhos, com a ideia de que o SQL fosse padronizado para se tornar a linguagem padrão para gerenciamento de informações em um banco de dados relacional. Posteriormente, o SQL sofreu importantes melhorias com modificações e adições até os dias atuais. </h5>
+
+<h5>
+  3. 
+- Possui sintaxe e semântica próprias que tenta se aproximar à língua inglesa.
+- Utilizada tanto por programadores"normais" tanto também pelos Administradores do Banco de Dados.
+-Permite fazer uma série de operações de inclusão, de pesquisa e de definição de dados.
+-Possui linguagem do tipo declarativa. </h5>
+
+
+
+
+<h5>
+  4.
+Select (nome_coluna) from (nome_tabela)
+
+Após o uso do Select será preciso a escolha de uma coluna para ser selecionada. Logo após, o From é usado para especificar a origem da coluna.
+Tanto select e from são cláusulas obrigatórias em uma consulta SQL. </h5>
+
+
+
+
+<h5> 
+5. A importância do SQL no software reside principalmente no armazenamento de dados. Com o SQL é possível criar um banco de dados para armazenar informações, por exemplo, sobre uma empresa.</h5>
+
+
+
