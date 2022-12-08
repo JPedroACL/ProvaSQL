@@ -192,35 +192,45 @@ on tb_aluno.cod_aluno = tb_curso.cod_curso
 
 <h1>Questões teóricas</h1>
 
-
-<h5>1.
+<h3>1. Defina: SQL.</h3>
+<h5>
   O Structured Query Language,ou Linguagem de Consulta Estruturada, é uma linguagem para acesso,criação e manipulação de dados, sendo utilizada principalmente para trabalhar com banco de dados relacionais.  </h5>
   
-<h5> 2. 
+  <h3> 2. Faça um relacionamento cronológico sobre SQL.</h3>
+<h5>
 O SQL foi desenvolvido originalmente nos laboratórios da IBM na década de 70 sendo lançado pela Oracle em 1979. Na década de 80,a empresa American National Standards Institute (ANSI) iniciou seus trabalhos, com a ideia de que o SQL fosse padronizado para se tornar a linguagem padrão para gerenciamento de informações em um banco de dados relacional. Posteriormente, o SQL sofreu importantes melhorias com modificações e adições até os dias atuais. </h5>
 
+<h3>3. Liste as principais caracteríticas de SQL. </h3>
+
 <h5>
-  3. 
 - Possui sintaxe e semântica próprias que tenta se aproximar à língua inglesa.
-- Utilizada tanto por programadores"normais" tanto também pelos Administradores do Banco de Dados.
+  <br>
+  
+  
+-Utilizada tanto por programadores"normais" tanto também pelos Administradores do Banco de Dados.
+  
 -Permite fazer uma série de operações de inclusão, de pesquisa e de definição de dados.
+  
 -Possui linguagem do tipo declarativa. </h5>
 
 
-
+<h3> 4.Descreva a sintaxe do comando SQL: SELECT. Quais cláusulas são obrigatórias e
+quais são opcionais? </h3>
 
 <h5>
-  4.
+  
 Select (nome_coluna) from (nome_tabela)
 
 Após o uso do Select será preciso a escolha de uma coluna para ser selecionada. Logo após, o From é usado para especificar a origem da coluna.
 Tanto select e from são cláusulas obrigatórias em uma consulta SQL. </h5>
 
 
-
+<h3> 5. Qual a importância da linguagem SQL no desenvolvimento de softwares
+atualmente? Justifique. </h3>
 
 <h5> 
-5. A importância do SQL no software reside principalmente no armazenamento de dados. Com o SQL é possível criar um banco de dados para armazenar informações, por exemplo, sobre uma empresa.</h5>
+
+  A importância do SQL no software reside principalmente no armazenamento de dados. Com o SQL é possível criar um banco de dados para armazenar informações, por exemplo, sobre uma empresa.</h5>
 
 
 
